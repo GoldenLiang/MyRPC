@@ -32,5 +32,6 @@ public class ProtostuffSerialization implements Serialization {
         ProtostuffIOUtil.mergeFrom(bytes, message, schema);
         return message;
     }
+    
     private Objenesis objenesis = new ObjenesisStd(); // <2>
 }

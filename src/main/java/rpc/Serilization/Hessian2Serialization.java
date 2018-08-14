@@ -5,7 +5,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import com.caucho.hessian.io.Hessian2Input;
 import com.caucho.hessian.io.Hessian2Output;
-
+    
 public class Hessian2Serialization implements Serialization {
     @Override
     public byte[] serialize(Object data) throws IOException {
